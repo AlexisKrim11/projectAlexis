@@ -1,5 +1,13 @@
+/*GENERAL*/
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
   }
   .pdf-container {
     width: 210mm; 
@@ -10,10 +18,24 @@ body {
     overflow: hidden; 
   }
 
-  .pdf-content {
+
+  .white-text {
+    color: white;
+    text-align: center;
+  }
+
+ .margin-20{
+  margin: 20px;
+ }
+ 
+ .text-center{
+  text-align: center;
+ }
+  /*PDF1*/
+.pdf-content {
     width: 100%; 
     height: 100%; 
-    background-image: url(./assets/fondo-presupuesto.png);
+    background-image: url(./assets/fondo-presupuesto-1.png);
     background-size: cover; /
     background-repeat: no-repeat; 
     background-position: center; 
@@ -21,10 +43,159 @@ body {
     box-sizing: border-box; /
   }
 
+.company-name {
+    font-weight: bold;
+    font-size: 20px; 
+    margin-bottom: 3px; 
+}
+
+.contact-info {
+    font-size: 12px;
+}
+
+.contact-info p {
+    margin: 1px 0;
+}
+
+.bg-dark.bg-gradiente {
+    margin: 10px;
+   
+}
+
+.fecha-row{
+  display: flex;
+  flex-direction: row;
+}
+.red-text{
+  color: red;
+  margin: 10px 80px 10px 30px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
 .table td {
-    width: 50%; 
+  padding: 8px;
+  text-align: left;
+  border: 1px solid white; /* Borde blanco para todas las celdas */
+}
+
+/* Estilos para los títulos */
+.table th {
+  background-color: #ff6b6b; /* Fondo rosado oscuro para los títulos */
+  color: white; /* Texto blanco para los títulos */
+  text-align: center; /* Alineación centrada para los títulos */
+}
+
+/* Estilos para las celdas de datos */
+.table td {
+  width: 50%; /* Ancho de las celdas */
+}
+
+/* Estilos para "Ambiente" y "Planilla de Superficies" */
+.table th[colspan="2"] {
+  background-color: #ff4d4d; /* Fondo rosa ligeramente más fuerte para "Ambiente" y "Planilla de Superficies" */
+}
+
+/* Estilos para las filas específicas */
+.table tbody tr:nth-child(1) td,
+.table tbody tr:nth-child(2) td,
+.table tbody tr:nth-child(3) td,
+.table tbody tr:nth-child(4) td,
+.table tbody tr:nth-child(5) td,
+.table tbody tr:nth-child(6) td {
+  background-color: #ffb6c1; /* Fondo rosado claro para filas de cochera, galería, etc. */
+}
+
+/* Estilos para las columnas vacías */
+.table tbody tr td:empty {
+  background-color: #ffe4e1; /* Fondo rosa claro para columnas vacías */
+}
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+ 
+  /*PDF2*/
+  .pdf-content-2 {
+    width: 100%; 
+    height: 100%; 
+    background-image: url(./assets/fondo-presupuesto-2-8.jpg);
+    background-size: cover; /
+    background-repeat: no-repeat; 
+    background-position: center; 
+    padding: 20px; 
+    box-sizing: border-box; /
   }
-  .no-gutters {
-    margin-right: 0;
-    margin-left: 0;
-  }
+
+
+.photo-obra{
+  width: 400px;
+  height: 250px;
+}
+
+.right-ubication{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/*PDF-6-7*/
+.photo-qr{
+
+  width: 170px;
+  height: 170px;
+}
+
+
+.new-bg-red{
+  background-color: #B40000;
+}
+
+.red-fullhouse{
+  color: #B40000;
+}
+
+
+.photo-obra {
+    width: 400px;
+    height: 250px;
+    align-self: flex-end; /* Alinea la imagen al final del contenedor */
+}
+
+.left-section,
+.right-section {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.left-section {
+    margin-right: 20px; /* Espacio entre la sección izquierda y la imagen */
+}
+
+.right-section {
+    margin-left: 20px; /* Espacio entre la sección derecha y la imagen */
+}
+
+.red-fullhouse {
+    color: #B40000;
+    text-align: left; /* Alinea el texto a la izquierda */
+    margin-top: 10px; /* Espacio entre el título y el texto */
+}
+
+.red-fullhouse.text-center {
+    text-align: center; /* Alinea el texto al centro si es necesario */
+}
+
+.text-block {
+    margin-top: 10px; /* Espacio entre cada bloque de texto */
+}
