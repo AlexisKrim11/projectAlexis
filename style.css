@@ -24,6 +24,9 @@ body {
     text-align: center;
   }
 
+  .margin-10{
+    margin: 10px;
+  }
  .margin-20{
   margin: 20px;
  }
@@ -51,6 +54,7 @@ body {
 
 .contact-info {
     font-size: 12px;
+    margin-bottom: 20px;
 }
 
 .contact-info p {
@@ -198,4 +202,19 @@ body {
 
 .text-block {
     margin-top: 10px; /* Espacio entre cada bloque de texto */
+}
+
+.bonificacion{
+  margin: 40px;
+  text-align: center;
+}
+
+.row-qr{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.tamanio-presupuesto{
+  font-size: 20px;
+  color: white;
 }
