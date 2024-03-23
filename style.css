@@ -39,11 +39,11 @@ body {
     width: 100%; 
     height: 100%; 
     background-image: url(./assets/fondo-presupuesto-1.png);
-    background-size: cover; /
+    background-size: cover; 
     background-repeat: no-repeat; 
     background-position: center; 
     padding: 20px;
-    box-sizing: border-box; /
+    box-sizing: border-box; 
   }
 
 .company-name {
@@ -62,10 +62,18 @@ body {
 }
 
 .banderin {
-  margin: 10px;
+    margin: 10px;
     background-image: url(./assets/contenedor-black.png);
     background-size: 100% 400%; 
     background-position: center; 
+}
+
+.banderin-2{
+  margin: 10px;
+    background-image: url(./assets/contenedor-black-2.png);
+    background-size: 100% 400%; 
+    background-position: center; 
+
 }
 
 .banderin-red {
@@ -73,6 +81,17 @@ body {
     background-image: url(./assets/contenedor-red.png);
     background-size: 100% 400%; 
     background-position: center; 
+}
+
+.banderin-red-2{
+  margin: 10px;
+    background-image: url(./assets/contenedor-red-2.png);
+    background-size: 100% 200%; 
+    background-position: center; 
+}
+
+.blue-text{
+  color: #004AAD;
 }
 
 
@@ -112,7 +131,7 @@ body {
 }
 
 .table th[colspan="2"] {
-  background-color: #ff4d4d; 
+  background-color: #FF9999;
 }
 
 .table tbody tr:nth-child(1) td,
@@ -138,66 +157,66 @@ body {
     width: 100%; 
     height: 100%; 
     background-image: url(./assets/fondo-presupuesto-2.jpg);
-    background-size: cover; /
+    background-size: cover; 
     background-repeat: no-repeat; 
     background-position: center; 
     padding: 20px; 
-    box-sizing: border-box; /
+    box-sizing: border-box; 
   }
    /*PDF3*/
    .pdf-content-3 {
     width: 100%; 
     height: 100%; 
     background-image: url(./assets/fondo-presupuesto-3.jpg);
-    background-size: cover; /
+    background-size: cover; 
     background-repeat: no-repeat; 
     background-position: center; 
     padding: 20px; 
-    box-sizing: border-box; /
+    box-sizing: border-box; 
   }
    /*PDF4*/
    .pdf-content-4 {
     width: 100%; 
     height: 100%; 
     background-image: url(./assets/fondo-presupuesto-4.jpg);
-    background-size: cover; /
+    background-size: cover; 
     background-repeat: no-repeat; 
     background-position: center; 
     padding: 20px; 
-    box-sizing: border-box; /
+    box-sizing: border-box; 
   }
    /*PDF5*/
    .pdf-content-5 {
     width: 100%; 
     height: 100%; 
     background-image: url(./assets/fondo-presupuesto-5.jpg);
-    background-size: cover; /
+    background-size: cover; 
     background-repeat: no-repeat; 
     background-position: center; 
     padding: 20px; 
-    box-sizing: border-box; /
+    box-sizing: border-box; 
   }
    /*PDF6*/
    .pdf-content-6 {
     width: 100%; 
     height: 100%; 
     background-image: url(./assets/fondo-presupuesto-6.jpg);
-    background-size: cover; /
+    background-size: cover; 
     background-repeat: no-repeat; 
     background-position: center; 
     padding: 20px; 
-    box-sizing: border-box; /
+    box-sizing: border-box; 
   }
    /*PDF7*/
    .pdf-content-7 {
     width: 100%; 
     height: 100%; 
     background-image: url(./assets/fondo-presupuesto-7.jpg);
-    background-size: cover; /
+    background-size: cover; 
     background-repeat: no-repeat; 
     background-position: center; 
     padding: 20px; 
-    box-sizing: border-box; /
+    box-sizing: border-box; 
   }
 
   
@@ -206,11 +225,11 @@ body {
     width: 100%; 
     height: 100%; 
     background-image: url(./assets/fondo-presupuesto-8.jpg);
-    background-size: cover; /
+    background-size: cover; 
     background-repeat: no-repeat; 
     background-position: center; 
     padding: 20px; 
-    box-sizing: border-box; /
+    box-sizing: border-box; 
   }
 .photo-obra{
   width: 400px;
@@ -229,6 +248,7 @@ body {
 
   width: 170px;
   height: 170px;
+  
 }
 
 
@@ -290,4 +310,8 @@ body {
   display: flex;
   justify-content: center;
   margin-bottom: 30px;
+}
+
+.img-plano{
+   max-width: 60%;
 }
