@@ -30,6 +30,20 @@ body {
  .margin-20{
   margin: 20px;
  }
+
+ .margin-30{
+  margin: 30px;
+ }
+
+ 
+ .margin-40{
+  margin: 40px;
+ }
+ 
+ .margin-50{
+  margin: 50px;
+ }
+
  
  .text-center{
   text-align: center;
@@ -232,8 +246,8 @@ body {
     box-sizing: border-box; 
   }
 .photo-obra{
-  width: 400px;
-  height: 250px;
+  width: 350px;
+  height: 200px;
 }
 
 .right-ubication{
@@ -299,7 +313,7 @@ body {
 .row-qr{
   display: flex;
   justify-content: center;
-  margin-bottom: 50px;
+  margin-bottom: 90px;
 }
 .tamanio-presupuesto{
   font-size: 20px;
