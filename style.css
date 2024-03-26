@@ -313,7 +313,7 @@ body {
 .row-qr{
   display: flex;
   justify-content: center;
-  margin-bottom: 90px;
+  margin-bottom: 120px;
 }
 .tamanio-presupuesto{
   font-size: 20px;
