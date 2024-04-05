@@ -329,3 +329,22 @@ body {
 .img-plano{
    max-width: 60%;
 }
+.max-width{
+    width: 600px;
+    height: auto;
+}
+
+  .cover{
+    object-fit: scale-down;
+    align-items: center;
+  }
+
+  .img[class]{
+    width: 100%;
+  } 
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
